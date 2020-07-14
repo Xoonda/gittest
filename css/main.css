@@ -1,14 +1,28 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+
 }
 .wrapper {
     display: grid;
-    width: 1200px;
-    height: 600px;
+    grid-auto-columns: minmax(1000px, auto) ;
     margin: 0 auto;
     background-color: whitesmoke;
 }
+.header{
+    text-align: center;
+    height: 150px;
+}
 .link a{
     text-decoration: none;
+}
+.main_block {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column-gap: 1em;
+}
+.nav, .content{
+    background-color:rgba(12, 247, 247, .1);
+    padding-left: 10px;
 }
