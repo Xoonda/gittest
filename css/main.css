@@ -1,3 +1,11 @@
-body {
-    background-color: red; 
+* {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    display: grid;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: whitesmoke;
 }
