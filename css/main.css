@@ -9,3 +9,6 @@
     margin: 0 auto;
     background-color: whitesmoke;
 }
+.link a{
+    text-decoration: none;
+}
